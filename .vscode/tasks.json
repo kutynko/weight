@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "My.Weight.Ui",
+			"problemMatcher": "$vite",
+			"label": "dev frontend"
+		},
+		{
+			"type": "dotnet",
+			"task": "watch My.Weight.Api",
+			"file": "/Users/ruslan/Projects/weight/My.Weight.Api/My.Weight.Api.csproj",
+			"problemMatcher": "$msCompile",
+			"label": "dev backend",
+			"isBackground": true
+		}
+	]
+}
