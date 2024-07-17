@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - ruslank-weight
+name: DEV
 
 on:
   push:
@@ -21,6 +21,9 @@ jobs:
 
       - name: dotnet build
         run: dotnet build --configuration Release
+
+      - name: dotnet test
+        run: dotnet test
 
       - name: dotnet publish
         run: dotnet publish My.Weight.Api -c Release -o ./dist
