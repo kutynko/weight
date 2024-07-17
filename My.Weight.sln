@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Weight.Api", "My.Weight.Api\My.Weight.Api.csproj", "{56D19B6B-F082-4A0D-9847-A1A90DC0F5FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Weight.Api.Tests", "My.Weight.Api.Tests\My.Weight.Api.Tests.csproj", "{F5E2BE2B-3A44-432C-92DA-F2540A237EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D19B6B-F082-4A0D-9847-A1A90DC0F5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D19B6B-F082-4A0D-9847-A1A90DC0F5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D19B6B-F082-4A0D-9847-A1A90DC0F5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D19B6B-F082-4A0D-9847-A1A90DC0F5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E2BE2B-3A44-432C-92DA-F2540A237EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E2BE2B-3A44-432C-92DA-F2540A237EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E2BE2B-3A44-432C-92DA-F2540A237EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E2BE2B-3A44-432C-92DA-F2540A237EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32A065D8-5519-4DF3-AF9C-D8F1F58B0B91}
+	EndGlobalSection
+EndGlobal
