@@ -1,0 +1,19 @@
+form.new-form {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 1em;
+  padding: 0.5em;
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-auto-flow: row;
+  gap: 0.25em;
+}
+
+form.new-form label {
+  display: contents;
+}
+
+button.add-measure {
+  margin: 1em;
+}

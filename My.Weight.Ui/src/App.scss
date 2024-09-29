@@ -1,5 +1,22 @@
-.hello-world {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.value {
+	font-weight: bold;
+}
+
+button.large {
+	padding: 0.5em 1em;
+	font-size: x-large;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	font-size: large;
+	padding: 0.5em;
+}
+
+.smaller {
+	font-size: smaller;
+}
+.larger {
+	font-size: larger;
 }

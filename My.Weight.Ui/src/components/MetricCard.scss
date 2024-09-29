@@ -1,0 +1,29 @@
+.metric-card {
+  padding: 0.5em;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+
+  &:last-of-type {
+    border-bottom: 1px solid gray;
+  }
+}
+
+.metric-card__data {
+  flex: 1;
+}
+
+.weight__trend {
+  margin-left: 5px;
+}
+
+.weight__trend--up {
+  color: red;
+  &::before {
+    content: '+';
+  }
+}
+
+.weight__trend--down {
+  color: green;
+}

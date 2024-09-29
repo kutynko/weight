@@ -1,14 +1,18 @@
-import { useEffect, useState } from 'react';
+import {MetricCard} from "./components/MetricCard.tsx";
+import {NewMetricForm} from "./components/NewMetricForm.tsx";
+import {useMetrics} from "./api/metrics.ts";
+
 import './App.scss';
 
 function App() {
-	const [text, setText] = useState('');
-	useEffect(() => {
-		fetch('/api')
-			.then((response) => response.text())
-			.then((t) => setText(t));
-	});
-	return <>{text}</>;
+
+  const { data: last } = useMetrics();
+
+  return <>
+    <NewMetricForm/>
+    {last && last.map(l => <MetricCard key={l.id} {...l} />)}
+    {last && last.length === 0 && <div>no data</div>}
+  </>;
 }
 
 export default App;

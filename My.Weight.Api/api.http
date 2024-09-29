@@ -1,0 +1,36 @@
+POST https://localhost:7187/api/metrics
+Content-Type: application/json
+
+{ "weight": 100, "fat":  35 }
+
+###
+
+GET https://localhost:7187/api/metrics?from=2024-01-01
+
+###
+
+GET https://localhost:7187/api/metrics?from=2025-01-01
+
+###
+
+GET https://localhost:7187/api/metrics?to=2025-01-01
+
+###
+
+GET https://localhost:7187/api/metrics?from=2024-01-01&to=2025-01-01
+
+###
+
+GET https://localhost:7187/api/metrics/1
+
+###
+
+PUT https://localhost:7187/api/metrics/1
+Content-Type: application/json
+
+{ "weight": 100, "fat":  35, "vesicularFat": 18 }
+
+###
+
+DELETE https://localhost:7187/api/metrics/1
+
